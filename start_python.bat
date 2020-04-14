@@ -1,0 +1,1 @@
+python D:\pwork\MytMode\run.py
