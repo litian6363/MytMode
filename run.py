@@ -38,7 +38,8 @@ def get_wifi_list():
 
 
 if __name__ == '__main__':
-    wifi_name = get_wifi_list()
-    if 'Midea' in wifi_name:
-        print('Midea')
+    wifi_name = 'Midea'
+    wifi_name_list = get_wifi_list()
+    if wifi_name in wifi_name_list:
+        print(wifi_name)
         set_speaker_vol(50)
